@@ -4,4 +4,6 @@
 
 [ROM: SST39SF040](https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/SST39SF010A-SST39SF020A-SST39SF040-Data-Sheet-DS20005022.pdf)
 
+[ATF22V10](https://ww1.microchip.com/downloads/en/DeviceDoc/doc0735.pdf)
+
 [68000 Hardware Manual](https://bitsavers.org/pdf/peripheralTechnology/68000_Hardware_Manual.pdf)
