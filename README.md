@@ -52,7 +52,7 @@
 | Device | CS | Start | End | Size | Notes |
 |---|---|---|---|---|---|
 | UART | UART_CS | 0x00E00000 | 0x00E00FFF | 4 KiB | A0-A2, D0-D7 |
-| IDE / CF | IDE_CS0 / IDE_CS1 | 0x00R01000 | 0x00E01FFF | 4 KiB | CF/IDE command + control block |
+| IDE / CF | IDE_CS0 / IDE_CS1 | 0x00E01000 | 0x00E01FFF | 4 KiB | CF/IDE command + control block |
 | Keyboard | KBD_CS | 0x00E02000 | 0x00E0_2FFF | 4 KiB | DATA/STATUS/CONTROL keyboard interface |
 | Video | VID_CS | 0x00E03000 | - | - | Framebuffer window or video controller registers |
 | Spare | - | - | - | - | - |
