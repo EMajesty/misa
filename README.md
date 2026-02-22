@@ -1,6 +1,9 @@
-<p align="center"><img src="misc/misa.png" width="200" /></p>
+<p align="center">
+<img src="misc/misa.png" width="200" />
+</p>
 <h1 align="center">MISA</h1>
 
+<p align="center">
 - MC68HC000P* (at 2/4/8MHz)
 - 1MB ROM
 - 1MB RAM
@@ -10,6 +13,7 @@
 - CF card
 - Video
 - Audio?
+</p>
 
 ### Docs
 
