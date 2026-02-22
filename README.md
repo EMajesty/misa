@@ -4,7 +4,7 @@
 <h1 align="center">MISA</h1>
 
 <div align="center">
-<ul>
+<ul display="inline-block">
 <li>MC68HC000P* (at 2/4/8MHz)</li>
 <li>1MB ROM</li>
 <li>1MB RAM</li>
