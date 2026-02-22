@@ -4,15 +4,17 @@
 <h1 align="center">MISA</h1>
 
 <p align="center">
-- MC68HC000P* (at 2/4/8MHz)
-- 1MB ROM
-- 1MB RAM
-- PLD for glue
-- UART
-- Keyboard
-- CF card
-- Video
-- Audio?
+<ul>
+<li>MC68HC000P* (at 2/4/8MHz)</li>
+<li>1MB ROM</li>
+<li>1MB RAM</li>
+<li>PLD for glue</li>
+<li>UART</li>
+<li>Keyboard</li>
+<li>CF card</li>
+<li>Video</li>
+<li>Audio?</li>
+</ul>
 </p>
 
 ### Docs
