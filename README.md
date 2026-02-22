@@ -1,3 +1,5 @@
+# MISA
+
 - MC68HC000P* (at 2/4/8MHz)
 - 1MB ROM
 - 1MB RAM
@@ -7,11 +9,13 @@
 - Keyboard
 - CF card
 
+### Docs
 
 [68000 Hardware Manual](https://bitsavers.org/pdf/peripheralTechnology/68000_Hardware_Manual.pdf)
 
 [M68000 User's Manual](https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf)
 
+### BOM
 
 | Ref | Part | Qty | Package | Mouser | Digikey | Datasheet |
 |---|---|---|---|---|---|---|
