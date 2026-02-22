@@ -1,4 +1,4 @@
-- MC68HC000P10 (at 2/4/8MHz)
+- MC68HC000P* (at 2/4/8MHz)
 - 1MB ROM
 - 1MB RAM
 - PLD for glue
