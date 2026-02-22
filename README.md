@@ -3,7 +3,9 @@
 </p>
 <h1 align="center">MISA</h1>
 
-<div align="center">
+<p align="center">
+68k SBC somewhat inspired by the lisa and mac
+</p>
 
 - MC68HC000P* (at 2/4/8MHz)
 - 1MB ROM
@@ -14,8 +16,6 @@
 - CF card
 - Video
 - Audio?
-
-</div>
 
 ### Docs
 
