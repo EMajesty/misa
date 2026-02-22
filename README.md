@@ -20,3 +20,9 @@
 [TL16C550BN](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1171/TL16C550B.pdf)
 
 [68000 Hardware Manual](https://bitsavers.org/pdf/peripheralTechnology/68000_Hardware_Manual.pdf)
+
+
+| Part | Qty | Link |
+|---|---|---|
+|MC68HC000|1||
+|8MHz osc|1|[Link](https://www.digikey.fi/en/products/detail/cts-frequency-controls/MXO45HS-3C-8M000000/1801858)|
