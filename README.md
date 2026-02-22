@@ -7,7 +7,10 @@
 68k SBC somewhat inspired by the Lisa and Mac, and similar projects around the net
 </p>
 
----
+<br />
+<br />
+<br />
+<br />
 
 - MC68HC000P* (at 2/4/8MHz)
 - 1MB ROM
