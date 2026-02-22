@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">MISA</h1>
 
-<p align="center">
+<div align="center">
 
 - MC68HC000P* (at 2/4/8MHz)
 - 1MB ROM
@@ -15,7 +15,7 @@
 - Video
 - Audio?
 
-</p>
+</div>
 
 ### Docs
 
