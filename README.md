@@ -22,7 +22,11 @@
 [68000 Hardware Manual](https://bitsavers.org/pdf/peripheralTechnology/68000_Hardware_Manual.pdf)
 
 
-| Part | Qty | Link |
-|---|---|---|
-|MC68HC000|1||
-|8MHz osc|1|[Link](https://www.digikey.fi/en/products/detail/cts-frequency-controls/MXO45HS-3C-8M000000/1801858)|
+| Part | Qty | Link | Datasheet |
+|---|---|---|---|
+|MC68HC000|1|||[Datasheet](https://igspgm.com/repairs/MC68HC000.pdf)|
+|AS6C4008-55PCN|2|[Link](https://www.digikey.fi/en/products/detail/alliance-memory-inc/AS6C4008-55PCN/4234586)|[Datasheet](https://eu.mouser.com/datasheet/3/893/1/AS6C4008.pdf)|
+|SST39SF040|2|[Link](https://www.digikey.fi/en/products/detail/microchip-technology/SST39SF040-70-4C-PHE/2297835)|[Datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/SST39SF010A-SST39SF020A-SST39SF040-Data-Sheet-DS20005022.pdf)|
+|ATF1508AS|1|[Link](https://www.digikey.fi/en/products/detail/microchip-technology/ATF1508AS-10AU100/1008404)|[Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/doc0784.pdf)|
+|8MHz oscillator|1|[Link](https://www.digikey.fi/en/products/detail/cts-frequency-controls/MXO45HS-3C-8M000000/1801858)|[Datasheet](https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Clock-Oscillators/clock-ocillators-MXO45_MXO45HS-datasheet.pdf)|
+|1.8432MHz oscillator|1|[Link](https://www.digikey.fi/en/products/detail/cts-frequency-controls/MXO45HS-3C-1M843200/1801859)|[Datasheet](https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Clock-Oscillators/clock-ocillators-MXO45_MXO45HS-datasheet.pdf)|
