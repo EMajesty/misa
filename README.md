@@ -4,8 +4,10 @@
 <h1 align="center">MISA</h1>
 
 <p align="center">
-68k SBC somewhat inspired by the lisa and mac
+68k SBC somewhat inspired by the Lisa and Mac, and similar projects around the net
 </p>
+
+---
 
 - MC68HC000P* (at 2/4/8MHz)
 - 1MB ROM
