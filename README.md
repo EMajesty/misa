@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-<img src="misc/68000.gif" width="200" />
+<img src="misc/misa2.jpg" width="200" />
 </p>
 
 - MC68HC000P* (at 2/4/8MHz)
