@@ -15034,6 +15034,28 @@
 			)
 		)
 	)
+	(global_label "KBD_DATA"
+		(shape input)
+		(at 39.37 266.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7773c8c8-9dca-48da-815b-8f5155b42b35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.1924 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A4"
 		(shape input)
 		(at 462.28 201.93 180)
@@ -15184,6 +15206,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "KBD_IRQ"
+		(shape input)
+		(at 39.37 269.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d54114b-fc6a-45b0-91b9-521db4b85e60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.4019 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
