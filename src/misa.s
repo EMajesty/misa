@@ -20,5 +20,5 @@ done:
 
     .section .rodata
 message:
-    .asciz  "Hello from MISA!\r\n"
+    .asciz  "hell world\r\n"
 
