@@ -1,4 +1,4 @@
-from machine68k import Machine  # from PyPI machine68k [web:40]
+from machine68k import Machine, cpu_type_from_str  # from PyPI machine68k [web:40]
 
 # ---- Address map (from MISA docs) ----
 ROM_START = 0x00000000
@@ -41,45 +41,39 @@ class Uart16550:
 
 uart = Uart16550()
 
-def io_read(addr, size):
+def io_read8(addr):
     if UART_BASE <= addr < UART_BASE + UART_SIZE:
-        if size == 1:
-            return uart.read8(addr)
-        # If your code does word/long I/O, extend this to combine bytes.
-        return uart.read8(addr) & 0xFF
+        return uart.read8(addr)
     # Unimplemented devices: return open bus
     return 0xFF
 
-def io_write(addr, value, size):
+def io_write8(addr, value):
     if UART_BASE <= addr < UART_BASE + UART_SIZE:
-        if size == 1:
-            uart.write8(addr, value & 0xFF)
-        else:
-            # For word/long, just take low byte for now
-            uart.write8(addr, value & 0xFF)
+        uart.write8(addr, value & 0xFF)
 
 # ---- Build the machine ----
-m = Machine(cpu_type="68000")  # MC68HC000 is a 68000 core [web:12][web:40]
+cpu_type = cpu_type_from_str("68000")
+# Back a full 24-bit address space to avoid invalid reads in unassigned regions.
+ram_size_kib = 0x1000000 // 1024
+m = Machine(cpu_type, ram_size_kib)  # MC68HC000 is a 68000 core [web:12][web:40]
 
 # Map ROM and RAM
-m.map_ram(ROM_START, ROM_START + ROM_SIZE - 1, rom)   # treat as ROM by convention
-m.map_ram(RAM_START, RAM_START + RAM_SIZE - 1, ram)
+m.mem.w_block(ROM_START, bytes(rom))
+m.mem.w_block(RAM_START, bytes(ram))
 
 # Map I/O as special (only UART handled yet)
-m.map_special(IO_START, IO_START + IO_SIZE - 1,
-              read_cb=io_read, write_cb=io_write)
+m.mem.set_special_range_read_funcs(IO_START, 1, r8=io_read8)
+m.mem.set_special_range_write_funcs(IO_START, 1, w8=io_write8)
 
 # Optionally verify / override SP & PC from vectors:
-# import struct
-# initial_sp = int.from_bytes(rom[0:4], "big")
-# initial_pc = int.from_bytes(rom[4:8], "big")
-# m.set_reg("SP", initial_sp)
-# m.set_reg("PC", initial_pc)
+initial_sp = int.from_bytes(rom[0:4], "big")
+initial_pc = int.from_bytes(rom[4:8], "big")
+m.cpu.w_sp(initial_sp)
+m.cpu.w_pc(initial_pc)
 
 # ---- Run ----
 try:
     while True:
-        m.run(cycles=10000)
+        m.execute(10000)
 except KeyboardInterrupt:
     print("\nStopped.")
-
