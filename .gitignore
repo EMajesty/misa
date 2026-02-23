@@ -43,6 +43,7 @@ fp-info-cache
 .direnv/
 .envrc
 .venv/
+build/
 
 # Python cache
 __pycache__/

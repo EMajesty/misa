@@ -12,8 +12,11 @@
         pkgs = import nixpkgs { inherit system; };
         lib = pkgs.lib;
         maybePkg = name: if lib.hasAttr name pkgs then [ pkgs.${name} ] else [ ];
-        maybePath = path: if lib.hasAttrByPath path pkgs then [ lib.getAttrFromPath path pkgs ] else [ ];
-        crossBinutils = maybePath [ "pkgsCross" "m68k-elf" "buildPackages" "binutils" ];
+        m68kPkgs = import nixpkgs {
+          inherit system;
+          crossSystem = { config = "m68k-none-elf"; };
+        };
+        crossBinutils = [ m68kPkgs.buildPackages.binutils-unwrapped ];
         python = pkgs.python3.withPackages (ps: with ps; [ pip virtualenv ]);
       in {
         devShells.default = pkgs.mkShell {
