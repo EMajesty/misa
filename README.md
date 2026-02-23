@@ -12,8 +12,8 @@
 - 1MB RAM
 - PLD for glue
 - UART
+- CF card
 - Keyboard?
-- CF card?
 - Video?
 - Audio?
 
