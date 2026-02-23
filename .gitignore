@@ -38,3 +38,31 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# Dev environment
+.direnv/
+.envrc
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Build artifacts / logs
+*.log
+*.o
+*.obj
+*.a
+*.lib
+*.elf
+*.bin
+*.hex
+*.srec
+*.map
+*.lst
+*.d
