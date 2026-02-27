@@ -29,6 +29,7 @@
 | Ref | Part | Qty | Package | Mouser | Digikey | Datasheet |
 |---|---|---|---|---|---|---|
 ||MC68HC000|1|64DIP|||[Datasheet](https://igspgm.com/repairs/MC68HC000.pdf)|
+||AY-3-8910|1||||[Datasheet](https://ia601304.us.archive.org/14/items/General_Instrument_AY-3-8910/General_Instrument_AY-3-8910_text.pdf)|
 ||AS6C4008-55PCN|2|32DIP|[Link](https://www.mouser.fi/ProductDetail/Alliance-Memory/AS6C4008-55PCN?qs=E5c5%252Bmu3i3%252BMOyro1Tlhzg%3D%3D)|[Link](https://www.digikey.fi/en/products/detail/alliance-memory-inc/AS6C4008-55PCN/4234586)|[Datasheet](https://eu.mouser.com/datasheet/3/893/1/AS6C4008.pdf)|
 ||SST39SF040|2|32DIP|[Link](https://www.mouser.fi/ProductDetail/Microchip-Technology/SST39SF040-70-4C-PHE?qs=YClUa%252B2dcx1pgizrqJ6nyQ%3D%3D)|[Link](https://www.digikey.fi/en/products/detail/microchip-technology/SST39SF040-70-4C-PHE/2297835)|[Datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/SST39SF010A-SST39SF020A-SST39SF040-Data-Sheet-DS20005022.pdf)|
 ||ATF1508AS|1|100TQFP|[Link](https://www.mouser.fi/ProductDetail/Microchip-Technology/ATF1508AS-7AX100?qs=fH4tvdCgwtMKHDTA5tqoNQ%3D%3D)|[Link](https://www.digikey.fi/en/products/detail/microchip-technology/ATF1508AS-10AU100/1008404)|[Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/doc0784.pdf)|
