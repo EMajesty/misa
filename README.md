@@ -5,7 +5,9 @@
 
 <p align="center">
 68k SBC somewhat inspired by the Lisa and the Mac, and similar projects around the net.
+</p>
 
+<p align="center">
 MC68HC000P* (at 4/8/16 MHz)
 1MB ROM
 1MB RAM
@@ -16,9 +18,13 @@ Keyboard?
 Video?
 Audio?
 Networking???
+</p>
 
+<p align="center">
 <img src="misc/font.png" width="640" />
+</p>
 
+<p align="center">
 <img src="misc/mockup.png" width="640" />
 </p>
 
