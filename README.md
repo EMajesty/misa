@@ -47,6 +47,7 @@
 ||SN74HCT74N|1|14DIP|[Link](https://www.mouser.fi/ProductDetail/Texas-Instruments/SN74HCT74N?qs=VuX40u8tcuDJWxEji9hndw%3D%3D)|[Link](https://www.digikey.fi/en/products/detail/texas-instruments/SN74HCT74N/277271)|[Datasheet](https://www.ti.com/lit/ds/symlink/sn74hct74.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1771757308194&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74hct74)||
 ||8MHz oscillator|1|8DIP|[Link](https://www.mouser.fi/ProductDetail/ECS/ECS-2100AX-8.0MHZ?qs=A9ALx0kupCL3HHwFXlJ9sQ%3D%3D)|[Link](https://www.digikey.fi/en/products/detail/cts-frequency-controls/MXO45HS-3C-8M000000/1801858)|[Datasheet](https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Clock-Oscillators/clock-ocillators-MXO45_MXO45HS-datasheet.pdf)||
 ||1.8432MHz oscillator|1|8DIP|[Link](https://www.mouser.fi/ProductDetail/ECS/ECS-2100AX-1.8432MHZ?qs=7cQpS2oZOEMv8URpRm%2FrTg%3D%3D)|[Link](https://www.digikey.fi/en/products/detail/cts-frequency-controls/MXO45HS-3C-1M843200/1801859)|[Datasheet](https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Clock-Oscillators/clock-ocillators-MXO45_MXO45HS-datasheet.pdf)||
+||WizFi360-CON|1|||||[Datasheet](https://docs.wiznet.io/pdf-viewer?file=%2Fassets%2Ffiles%2Fwizfi360_ds_v112_en-1495cb0bcb7e6583e492b1b8967f7fb4.pdf)|WIFI|
 
 ### Memory map
 
