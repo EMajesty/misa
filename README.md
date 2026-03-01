@@ -9,23 +9,23 @@
 
 <p align="center">
 MC68HC000P* (at 4/8/16 MHz)
-
+<br />
 1MB ROM
-
+<br />
 1MB RAM
-
+<br />
 PLD for glue
-
+<br />
 UART
-
+<br />
 CF card
-
+<br />
 Keyboard?
-
+<br />
 Video?
-
+<br />
 Audio?
-
+<br />
 Networking???
 </p>
 
