@@ -18,6 +18,14 @@
 - Audio?
 - Networking???
 
+<p align="center">
+<img src="misc/font.png" width="640" />
+</p>
+
+<p align="center">
+<img src="misc/mockup.png" width="640" />
+</p>
+
 ### Docs
 
 [68000 Hardware Manual](https://bitsavers.org/pdf/peripheralTechnology/68000_Hardware_Manual.pdf)
