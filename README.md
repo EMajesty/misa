@@ -7,7 +7,7 @@
 68k SBC somewhat inspired by the Lisa and the Mac, and similar projects around the net.
 </p>
 
-- MC68HC000P* (at 2/4/8MHz)
+- MC68HC000P* (at 4/8/16 MHz)
 - 1MB ROM
 - 1MB RAM
 - PLD for glue
@@ -45,8 +45,8 @@
 ||NE555P|1|DIP8|[Datasheet](https://www.ti.com/lit/ds/symlink/se555.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1771745013638&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fse555)||
 ||SN74HC05N|1|DIP14|[Datasheet](https://www.ti.com/lit/ds/symlink/sn74hc05.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1771768334330&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74hc05)||
 ||SN74HCT74N|1|DIP14|[Datasheet](https://www.ti.com/lit/ds/symlink/sn74hct74.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1771757308194&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74hct74)||
-||8MHz oscillator|1|DIP8|[Datasheet](https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Clock-Oscillators/clock-ocillators-MXO45_MXO45HS-datasheet.pdf)||
-||1.8432MHz oscillator|1|DIP8|[Datasheet](https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Clock-Oscillators/clock-ocillators-MXO45_MXO45HS-datasheet.pdf)||
+||16 MHz oscillator|1|DIP8|[Datasheet](https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Clock-Oscillators/clock-ocillators-MXO45_MXO45HS-datasheet.pdf)||
+||1.8432 MHz oscillator|1|DIP8|[Datasheet](https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Clock-Oscillators/clock-ocillators-MXO45_MXO45HS-datasheet.pdf)||
 ||WizFi360-CON|1||[Datasheet](https://docs.wiznet.io/pdf-viewer?file=%2Fassets%2Ffiles%2Fwizfi360_ds_v112_en-1495cb0bcb7e6583e492b1b8967f7fb4.pdf)|WIFI|
 
 ### Memory map
