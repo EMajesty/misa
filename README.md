@@ -59,7 +59,7 @@ Networking???
 ||16 MHz oscillator|1|DIP8|[Datasheet](https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Clock-Oscillators/clock-ocillators-MXO45_MXO45HS-datasheet.pdf)||
 ||1.8432 MHz oscillator|1|DIP8|[Datasheet](https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Clock-Oscillators/clock-ocillators-MXO45_MXO45HS-datasheet.pdf)||
 ||WizFi360-CON|1||[Datasheet](https://docs.wiznet.io/pdf-viewer?file=%2Fassets%2Ffiles%2Fwizfi360_ds_v112_en-1495cb0bcb7e6583e492b1b8967f7fb4.pdf)|WIFI|
-||5.7" 320240 RA8835|1|||Display|
+||5.7" 320240 RA8835|1||[Datasheet (module)](https://www.buydisplay.com/download/manual/ERM320240-1_Series_Datasheet.pdf)[Datasheet (controller)](https://www.buydisplay.com/download/ic/RA8835.pdf)|Display|
 
 ### Memory map
 
