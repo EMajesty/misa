@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-MC68HC000P* (at 4/8/16 MHz)
+MC68HC000P16 (at 4/8/16 MHz)
 <br />
 1MB ROM
 <br />
@@ -20,9 +20,9 @@ UART
 <br />
 CF card
 <br />
-Keyboard?
+Display
 <br />
-Video?
+Keyboard?
 <br />
 Audio?
 <br />
@@ -36,6 +36,17 @@ Networking???
 <p align="center">
 <img src="misc/mockup.png" width="640" />
 </p>
+
+### TODO
+
+- [ ] HW proto
+- [ ] PLD logic
+- [ ] UART stuff
+- [ ] Display stuff
+- [ ] Input stuff
+- [ ] Read FAT16
+- [ ] File manager
+- [ ] A beep
 
 ### Docs
 
