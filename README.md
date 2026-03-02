@@ -45,7 +45,7 @@ Networking???
 - [ ] UART stuff
 - [ ] Display stuff
 - [ ] Input stuff
-- [ ] Read FAT16
+- [ ] FAT16/VFAT 
 - [ ] File manager
 - [ ] A beep
 - [ ] Text editor
