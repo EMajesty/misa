@@ -39,6 +39,7 @@ Networking???
 
 ### TODO
 
+- [x] Font 
 - [ ] HW proto
 - [ ] PLD logic
 - [ ] UART stuff
