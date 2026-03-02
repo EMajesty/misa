@@ -48,6 +48,8 @@ Networking???
 - [ ] Read FAT16
 - [ ] File manager
 - [ ] A beep
+- [ ] ?????
+- [ ] Multitasking kernel
 
 ### Docs
 
