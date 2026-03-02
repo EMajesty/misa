@@ -48,6 +48,9 @@ Networking???
 - [ ] Read FAT16
 - [ ] File manager
 - [ ] A beep
+- [ ] Text editor
+- [ ] Terminal emulator
+- [ ] Lisp interpreter
 - [ ] ?????
 - [ ] Multitasking kernel
 
