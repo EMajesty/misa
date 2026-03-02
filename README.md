@@ -61,9 +61,9 @@ Networking???
 ||MC68HC000|1|DIP64/PLCC68|[Datasheet](https://igspgm.com/repairs/MC68HC000.pdf)|MPU|
 ||AY-3-8910|1|DIP40|[Datasheet](https://ia601304.us.archive.org/14/items/General_Instrument_AY-3-8910/General_Instrument_AY-3-8910_text.pdf)|Sound|
 ||AS6C4008-55PCN|2|DIP32|[Datasheet](https://eu.mouser.com/datasheet/3/893/1/AS6C4008.pdf)|SRAM|
-||SST39SF040|2|DIP32|[Datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/SST39SF010A-SST39SF020A-SST39SF040-Data-Sheet-DS20005022.pdf)|ROM|
+||SST39SF040|2|PLCC32|[Datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/SST39SF010A-SST39SF020A-SST39SF040-Data-Sheet-DS20005022.pdf)|ROM|
 ||ATF1508AS|1|PLCC84|[Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/doc0784.pdf)|CPLD|
-||GM16C550|1|DIP40|[Datasheet](https://static6.arrow.com/aropdfconversion/2dfff6e629d921fe824147bb28d8fe9afac699f1/gm16c550.pdf)|UART|
+||TL16C550|1|PLCC44|[Datasheet](https://static6.arrow.com/aropdfconversion/2dfff6e629d921fe824147bb28d8fe9afac699f1/gm16c550.pdf)|UART|
 ||NE555P|1|DIP8|[Datasheet](https://www.ti.com/lit/ds/symlink/se555.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1771745013638&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fse555)||
 ||SN74HC05N|1|DIP14|[Datasheet](https://www.ti.com/lit/ds/symlink/sn74hc05.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1771768334330&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74hc05)||
 ||SN74HCT74N|1|DIP14|[Datasheet](https://www.ti.com/lit/ds/symlink/sn74hct74.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1771757308194&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74hct74)||
