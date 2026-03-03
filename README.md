@@ -10,23 +10,23 @@
 <p align="center">
 MC68HC000P16 (at 4/8/16 MHz)
 <br />
-1MB ROM
+1MB ROM (2x SST39SF040)
 <br />
-1MB RAM
+1MB SRAM (2x AS6C4008-55PCN)
 <br />
-PLD for glue
+ATF1508 CPLD for glue
 <br />
 UART
 <br />
 CF card
 <br />
-Display
+Monochrome display
+<br />
+Audio with either AY-3-8910, YM2151 or YM3812?
 <br />
 Keyboard?
 <br />
-Audio?
-<br />
-Networking???
+Wifi with WizFi360???
 </p>
 
 <p align="center">
