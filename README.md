@@ -22,7 +22,7 @@ CF card
 <br />
 Monochrome display
 <br />
-Audio with either AY-3-8910, YM2151 or YM3812?
+Audio with YM2151?
 <br />
 Keyboard?
 <br />
@@ -65,10 +65,8 @@ Wifi with WizFi360???
 | Ref | Part | Qty | Package | Datasheet | Notes |
 |---|---|---|---|---|---|
 ||MC68HC000|1|DIP64/PLCC68|[Datasheet](https://igspgm.com/repairs/MC68HC000.pdf)|MPU|
-||AY-3-8910|1|DIP40|[Datasheet](https://ia601304.us.archive.org/14/items/General_Instrument_AY-3-8910/General_Instrument_AY-3-8910_text.pdf)|Sound|
 ||YM2151|1|DIP24|[Datasheet](https://retrocdn.net/images/1/1c/YM2151_datasheet.pdf)<br/>[Application manual](https://retrocdn.net/images/9/9c/YM2151_Application_Manual.pdf)|Sound|
 ||YM3012|1|DIP16|[Datasheet](https://datasheet4u.com/pdf-down/Y/M/3/YM3012-Yamaha.pdf)|DAC|
-||YM3812|1|DIP24|[Datasheet](https://www.ardent-tool.com/datasheets/Yamaha_YM3812.pdf)<br/>[Application manual](https://dn790002.ca.archive.org/0/items/YamahaYM3812ApplicationManual/Yamaha%20YM3812%20Application%20Manual.pdf)|Sound|
 ||AS6C4008-55PCN|2|DIP32|[Datasheet](https://eu.mouser.com/datasheet/3/893/1/AS6C4008.pdf)|SRAM|
 ||SST39SF040|2|PLCC32|[Datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/SST39SF010A-SST39SF020A-SST39SF040-Data-Sheet-DS20005022.pdf)|ROM|
 ||ATF1508AS|1|PLCC84|[Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/doc0784.pdf)|CPLD|
