@@ -67,6 +67,7 @@ Wifi with WizFi360???
 ||MC68HC000|1|DIP64/PLCC68|[Datasheet](https://igspgm.com/repairs/MC68HC000.pdf)|MPU|
 ||YM2151|1|DIP24|[Datasheet](https://retrocdn.net/images/1/1c/YM2151_datasheet.pdf)<br/>[Application manual](https://retrocdn.net/images/9/9c/YM2151_Application_Manual.pdf)|Sound|
 ||YM3012|1|DIP16|[Datasheet](https://datasheet4u.com/pdf-down/Y/M/3/YM3012-Yamaha.pdf)|DAC|
+||TDA2822M|1|DIP8|[Datasheet](https://www.mouser.com/catalog/specsheets/stmicroelectronics_cd00000134.pdf)|Power amp|
 ||AS6C4008-55PCN|2|DIP32|[Datasheet](https://eu.mouser.com/datasheet/3/893/1/AS6C4008.pdf)|SRAM|
 ||SST39SF040|2|PLCC32|[Datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/SST39SF010A-SST39SF020A-SST39SF040-Data-Sheet-DS20005022.pdf)|ROM|
 ||ATF1508AS|1|PLCC84|[Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/doc0784.pdf)|CPLD|
