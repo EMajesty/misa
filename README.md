@@ -80,28 +80,24 @@ Wifi with WizFi360???
 ||WizFi360-CON|1||[Datasheet](https://docs.wiznet.io/pdf-viewer?file=%2Fassets%2Ffiles%2Fwizfi360_ds_v112_en-1495cb0bcb7e6583e492b1b8967f7fb4.pdf)|WIFI|
 ||5.7" 320240 RA8835|1||[Module](https://www.buydisplay.com/download/manual/ERM320240-1_Series_Datasheet.pdf)<br />[Controller](https://www.buydisplay.com/download/ic/RA8835.pdf)|Display|
 
-### Memory map
+### Memory map (RAM vectors + 2 MiB I/O)
 
 | Region   | Start      | End        | Size   | Notes |
 |---------|------------|------------|--------|-------|
-| Vectors | 0x00000000 | 0x000003FF | 1 KiB  | Exception vector table (reset SP/PC etc.), in ROM image. [web:28] |
-| ROM     | 0x00000000 | 0x000FFFFF | 1 MiB  | 2x SST39SF040 in parallel; monitor, bootloader, simple OS. |
-| RAM     | 0x00100000 | 0x001FFFFF | 1 MiB  | 2x AS6C4008 in parallel; stacks at top, kernel data, user programs, heap. |
-| I/O     | 0x00E00000 | 0x00FFFFFF | 2 MiB  | CPLD‑decoded I/O window for UART, IDE/CF, keyboard, video, audio, WiFi, spare. [file:1][web:74] |
-| Reserved| Everything else | -     | -      | For future expansion / extra RAM or memory‑mapped devices. |
+| ROM     | 0x00000000 | 0x000FFFFF | 1 MiB  | 2x SST39SF040; contains reset vectors, monitor, bootloader; early startup runs from here. |
+| Vectors | 0x00100000 | 0x001003FF | 1 KiB  | Vector table copied from ROM into RAM at boot; CPU configured to use RAM vectors.|
+| RAM     | 0x00100000 | 0x001FFFFF | 1 MiB  | Same 1 MiB SRAM; low area holds vectors + kernel data, high end used for supervisor/user stacks and heap. |
+| I/O     | 0x00E00000 | 0x00FFFFFF | 2 MiB  | CPLD‑decoded I/O window for UART, IDE/CF, keyboard, video, audio, WiFi, unused space.|
+| Unused  | Everything else | -     | -      ||
 
 ### I/O submap (0x00E00000–0x00FFFFFF)
 
-| Device     | CS        | Start      | End        | Size  | Bus width | Notes |
-|-----------|-----------|------------|------------|-------|-----------|-------|
-| UART      | UART_CS   | 0x00E00000 | 0x00E00FFF | 4 KiB | 8‑bit     | TL16C550 on D0–D7, A0–A2 from CPU A1–A3. [file:1] |
-| IDE / CF  | IDE_CS0/1 | 0x00E01000 | 0x00E01FFF | 4 KiB | 16‑bit    | 16‑bit data path via CPLD, command/control regs. [file:1] |
-| Keyboard  | KBD_CS    | 0x00E02000 | 0x00E02FFF | 4 KiB | 8‑bit     | Simple DATA/STATUS/CONTROL registers. |
-| Video     | VID_CS    | 0x00E03000 | 0x00E03FFF | 4 KiB | 8‑ or 16‑bit | RA8835 controller regs; framebuffer mapped elsewhere or via paging. [file:1] |
-| Audio FM  | AUD_FM_CS | 0x00E04000 | 0x00E04FFF | 4 KiB | 8‑bit     | YM2151 register interface (addr+data). |
-| Audio DAC | AUD_DAC_CS| 0x00E05000 | 0x00E05FFF | 4 KiB | 16‑bit    | YM3012 / mixer control, stereo samples. |
-| WiFi      | WIFI_CS   | 0x00E06000 | 0x00E06FFF | 4 KiB | 8‑bit     | WizFi360 memory‑mapped UART/command regs. |
-| Spare 0   | SPARE0_CS | 0x00E07000 | 0x00E07FFF | 4 KiB | 8‑ or 16‑bit | For experimental devices or GPIO. |
-| Spare 1   | SPARE1_CS | 0x00E08000 | 0x00E0FFFF | 48 KiB| 8‑ or 16‑bit | Extra I/O blocks as needed. |
-| Reserved  | –         | 0x00E10000 | 0x00FFFFFF | ~1.9 MiB | 8‑ or 16‑bit | Future I/O decode options in CPLD. |
-
+| Device   | CS        | Start      | End        | Size    | Bus width | Notes |
+|---------|-----------|------------|------------|---------|-----------|-------|
+| UART    | UART_CS   | 0x00E00000 | 0x00E00FFF | 4 KiB   | 8‑bit     | TL16C550 on D0–D7, A0–A2 from CPU A1–A3.|
+| IDE / CF| IDE_CS0/1 | 0x00E01000 | 0x00E01FFF | 4 KiB   | 16‑bit    | 16‑bit data path via CPLD, command/control regs.|
+| Keyboard| KBD_CS    | 0x00E02000 | 0x00E02FFF | 4 KiB   | 8‑bit     | Simple DATA/STATUS/CONTROL registers.|
+| Video   | VID_CS    | 0x00E03000 | 0x00E03FFF | 4 KiB   | 8‑ or 16‑bit | RA8835 controller regs; framebuffer mapped elsewhere or via paging.|
+| Audio FM| AUD_FM_CS | 0x00E04000 | 0x00E04FFF | 4 KiB   | 8‑bit     | YM2151 register interface; DAC/analog path is fixed hardware, no CPU control.|
+| WiFi    | WIFI_CS   | 0x00E05000 | 0x00E05FFF | 4 KiB   | 8‑bit     | WizFi360 memory‑mapped UART/command regs (future). |
+| Unused  | –         | 0x00E06000 | 0x00FFFFFF | ~1.97 MiB | 8‑ or 16‑bit ||
