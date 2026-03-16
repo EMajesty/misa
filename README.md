@@ -39,11 +39,12 @@ Wifi with WizFi360???
 
 ### TODO
 
-- [x] Font 
 - [ ] HW proto
 - [ ] PLD logic
+- [ ] Monitor program
 - [ ] UART stuff
 - [ ] Display stuff
+- [x] Font 
 - [ ] Input stuff
 - [ ] FAT16/VFAT 
 - [ ] File manager
@@ -51,6 +52,7 @@ Wifi with WizFi360???
 - [ ] Text editor
 - [ ] Terminal emulator
 - [ ] Lisp interpreter
+- [ ] Doom
 - [ ] ?????
 - [ ] Multitasking kernel
 
