@@ -73,12 +73,12 @@ Wifi with WizFi360???
 ||AS6C4008-55PCN|2|DIP32|[Datasheet](https://eu.mouser.com/datasheet/3/893/1/AS6C4008.pdf)|SRAM|
 ||SST39SF040|2|PLCC32|[Datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/SST39SF010A-SST39SF020A-SST39SF040-Data-Sheet-DS20005022.pdf)|ROM|
 ||ATF1508AS|1|PLCC84|[Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/doc0784.pdf)|CPLD|
-||TL16C550|1|PLCC44|[Datasheet](https://static6.arrow.com/aropdfconversion/2dfff6e629d921fe824147bb28d8fe9afac699f1/gm16c550.pdf)|UART|
+||MC68681FN|1|PLCC44|[Datasheet](https://www.nxp.com/docs/en/data-sheet/MC68681.pdf)|DUART|
 ||NE555P|1|DIP8|[Datasheet](https://www.ti.com/lit/ds/symlink/se555.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1771745013638&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fse555)||
 ||SN74HC05N|1|DIP14|[Datasheet](https://www.ti.com/lit/ds/symlink/sn74hc05.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1771768334330&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74hc05)||
 ||SN74HCT74N|1|DIP14|[Datasheet](https://www.ti.com/lit/ds/symlink/sn74hct74.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1771757308194&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74hct74)||
 ||16 MHz oscillator|1|DIP8|[Datasheet](https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Clock-Oscillators/clock-ocillators-MXO45_MXO45HS-datasheet.pdf)||
-||1.8432 MHz oscillator|1|DIP8|[Datasheet](https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Clock-Oscillators/clock-ocillators-MXO45_MXO45HS-datasheet.pdf)||
+||3.6864 MHz oscillator|1|DIP8|[Datasheet](https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Clock-Oscillators/clock-ocillators-MXO45_MXO45HS-datasheet.pdf)||
 ||WizFi360-CON|1||[Datasheet](https://docs.wiznet.io/pdf-viewer?file=%2Fassets%2Ffiles%2Fwizfi360_ds_v112_en-1495cb0bcb7e6583e492b1b8967f7fb4.pdf)|WIFI|
 ||5.7" 320240 RA8835|1||[Module](https://www.buydisplay.com/download/manual/ERM320240-1_Series_Datasheet.pdf)<br />[Controller](https://www.buydisplay.com/download/ic/RA8835.pdf)|Display|
 
@@ -96,7 +96,7 @@ Wifi with WizFi360???
 
 | Device   | CS        | Start      | End        | Size    | Bus width | Notes |
 |---------|-----------|------------|------------|---------|-----------|-------|
-| UART    | UART_CS   | 0x00E00000 | 0x00E00FFF | 4 KiB   | 8‑bit     | TL16C550 on D0–D7, A0–A2 from CPU A1–A3.|
+| UART    | UART_CS   | 0x00E00000 | 0x00E00FFF | 4 KiB   | 8‑bit     | MC68681FN on D0–D7, RS0–RS3 from CPU A1–A4.|
 | IDE / CF| IDE_CS0/1 | 0x00E01000 | 0x00E01FFF | 4 KiB   | 16‑bit    | 16‑bit data path via CPLD, command/control regs.|
 | Keyboard| KBD_CS    | 0x00E02000 | 0x00E02FFF | 4 KiB   | 8‑bit     | Simple DATA/STATUS/CONTROL registers.|
 | Video   | VID_CS    | 0x00E03000 | 0x00E03FFF | 4 KiB   | 8‑ or 16‑bit | RA8835 controller regs; framebuffer mapped elsewhere or via paging.|
