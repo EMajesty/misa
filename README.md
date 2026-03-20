@@ -100,6 +100,6 @@ Wifi with WizFi360???
 | IDE / CF| IDE_CS0/1 | 0x00E01000 | 0x00E01FFF | 4 KiB   | 16‑bit    | 16‑bit data path via CPLD, command/control regs.|
 | Keyboard| KBD_CS    | 0x00E02000 | 0x00E02FFF | 4 KiB   | 8‑bit     | Simple DATA/STATUS/CONTROL registers.|
 | Video   | VID_CS    | 0x00E03000 | 0x00E03FFF | 4 KiB   | 8‑ or 16‑bit | RA8835 controller regs; framebuffer mapped elsewhere or via paging.|
-| Audio FM| AUD_FM_CS | 0x00E04000 | 0x00E04FFF | 4 KiB   | 8‑bit     | YM2151 register interface; DAC/analog path is fixed hardware, no CPU control.|
+| Audio   | AUD_CS    | 0x00E04000 | 0x00E04FFF | 4 KiB   | 8‑bit     | YM2151 register interface; DAC/analog path is fixed hardware, no CPU control.|
 | WiFi    | WIFI_CS   | 0x00E05000 | 0x00E05FFF | 4 KiB   | 8‑bit     | WizFi360 memory‑mapped UART/command regs (future). |
 | Unused  | –         | 0x00E06000 | 0x00FFFFFF | ~1.97 MiB | 8‑ or 16‑bit ||
